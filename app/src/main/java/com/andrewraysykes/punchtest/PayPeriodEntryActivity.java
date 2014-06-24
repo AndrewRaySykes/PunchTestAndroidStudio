@@ -7,6 +7,7 @@ import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.CalendarView;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -46,7 +47,7 @@ public class PayPeriodEntryActivity extends Activity {
     }
 
     private void CalculateDate() {
-        mPayPeriodStart = DateTime.forDateOnly(mDatePicker.getYear(), mDatePicker.getMonth(), mDatePicker.getDayOfMonth());
+//        mPayPeriodStart = DateTime.forDateOnly(mDatePicker.getYear(), mDatePicker.getMonth(), mDatePicker.getDayOfMonth());
         mPayPeriodEnd = mPayPeriodStart.plusDays(Integer.getInteger(mEditTextDays.getText().toString()));
 
     }

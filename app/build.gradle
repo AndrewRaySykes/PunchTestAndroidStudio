@@ -19,7 +19,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:+'
     compile files('libs/date4j.jar')
     compile files('libs/sqliteassethelper-2.0.1.jar')
+    compile 'com.android.support:support-v4:19.+'
 }

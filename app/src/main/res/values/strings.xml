@@ -5,5 +5,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_time_entry">Time Entry</string>
+    <string name="title_activity_pay_period_entry">Pay Period Entry</string>
 
 </resources>

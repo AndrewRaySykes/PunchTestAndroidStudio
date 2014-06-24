@@ -8,13 +8,15 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="19" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.andrewraysykes.punchtest.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,12 +25,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.andrewraysykes.punchtest.TimeEntryActivity"
+            android:name=".TimeEntryActivity"
             android:label="@string/title_activity_time_entry"
-            android:parentActivityName="com.andrewraysykes.punchtest.MainActivity" >
+            android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.andrewraysykes.punchtest.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".PayPeriodEntryActivity"
+            android:label="@string/title_activity_pay_period_entry" >
         </activity>
     </application>
 

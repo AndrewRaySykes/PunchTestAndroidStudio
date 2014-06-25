@@ -2,22 +2,22 @@
 <pre-dex-items>
 
     <item
-        dex="C:\Users\djdarco\AndroidStudioProjects\PunchTest\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-2e116a2f2ffa865698308aaa39a156ac2f3e60ad.jar"
-        jar="C:\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        dex="C:\GitHub\PunchTestAndroidStudio\app\build\intermediates\pre-dexed\debug\sqliteassethelper-2.0.1-62f2ff112785ee99d34cbfa5a9e8e2ca3ffe5661.jar"
+        jar="C:\GitHub\PunchTestAndroidStudio\app\libs\sqliteassethelper-2.0.1.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f"/>
     <item
-        dex="C:\Users\djdarco\AndroidStudioProjects\PunchTest\app\build\intermediates\pre-dexed\debug\date4j-0e247621281289eef4226fa4a4ee724025992b06.jar"
-        jar="C:\Users\djdarco\AndroidStudioProjects\PunchTest\app\libs\date4j.jar"
+        dex="C:\GitHub\PunchTestAndroidStudio\app\build\intermediates\pre-dexed\debug\date4j-e54a04985aedfd08a0f5aa8591a27885e8ccbdf1.jar"
+        jar="C:\GitHub\PunchTestAndroidStudio\app\libs\date4j.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="1b0591bfd9b1e8e904b53bd3b2574ab5ae222de1"/>
     <item
-        dex="C:\Users\djdarco\AndroidStudioProjects\PunchTest\app\build\intermediates\pre-dexed\debug\sqliteassethelper-2.0.1-3d42bdeafb428766ac302b0d1fce4d012ff6d965.jar"
-        jar="C:\Users\djdarco\AndroidStudioProjects\PunchTest\app\libs\sqliteassethelper-2.0.1.jar"
+        dex="C:\GitHub\PunchTestAndroidStudio\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e311e493b238b75da4095bd5ee7b69d76d73dc42.jar"
+        jar="C:\Program Files (x86)\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f"/>
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
 
 </pre-dex-items>

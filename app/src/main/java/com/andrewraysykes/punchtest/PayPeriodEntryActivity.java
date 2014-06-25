@@ -3,11 +3,9 @@ package com.andrewraysykes.punchtest;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.CalendarView;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -24,7 +22,7 @@ public class PayPeriodEntryActivity extends Activity {
 
     protected DateTime mPayPeriodStart;
     protected DateTime mPayPeriodEnd;
-    protected int mCurrentPayPeriodId;
+    protected DateTime.Unit mCurrentPayPeriodId;
 
 
     @Override
@@ -47,8 +45,12 @@ public class PayPeriodEntryActivity extends Activity {
     }
 
     private void CalculateDate() {
-//        mPayPeriodStart = DateTime.forDateOnly(mDatePicker.getYear(), mDatePicker.getMonth(), mDatePicker.getDayOfMonth());
-        mPayPeriodEnd = mPayPeriodStart.plusDays(Integer.getInteger(mEditTextDays.getText().toString()));
+        int year = mDatePicker.getYear();
+        int month = mDatePicker.getMonth();
+        int day = mDatePicker.getDayOfMonth();
+        //TODO: Don't make this uglier. Study how to store times the best way and then use them in your app's code too!
+//        Calendar tempCal = new GregorianCalendar(mDatePicker.getYear(), mDatePicker.getMonth(), mDatePicker.getDayOfMonth());
+//        Log.i("CalculateDate", tempCal.toString());
 
     }
 
